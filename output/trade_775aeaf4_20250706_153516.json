@@ -1,0 +1,15 @@
+{
+  "trade_id": "775aeaf4",
+  "ticker": "SHIBUSD",
+  "timeframe": "5",
+  "entry_price": 1.181e-05,
+  "exit_price": 1.192e-05,
+  "direction": "long",
+  "pnl": "+0.00000001 (+0.08%)",
+  "pnl_amount": 1e-08,
+  "date_time": "2025-07-06 15:35:00",
+  "reason_or_annotations": "Vol336.45M",
+  "image_source": "SHIBUSD_2025-07-06_15-35-00_12b6a.png",
+  "logged_at": "2025-07-06T15:35:16.859997",
+  "ocr_confidence": "68.7%"
+}

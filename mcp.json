@@ -1,0 +1,35 @@
+{
+  "name": "Trading Analysis Tool",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol server that analyzes trading screenshots using OCR and DeepSeek LLM",
+  "tools": [
+    {
+      "name": "extract_trade_from_image",
+      "description": "Extracts structured trade information from a chart screenshot using OCR and DeepSeek",
+      "parameters": {
+        "image_path": {
+          "type": "string",
+          "description": "Path to the trade screenshot image"
+        }
+      },
+      "returns": {
+        "type": "object",
+        "description": "Structured trade summary including ticker, direction, PnL, etc."
+      }
+    },
+    {
+      "name": "search_trade_logs",
+      "description": "Searches the trade_log.jsonl file for entries matching the query",
+      "parameters": {
+        "query": {
+          "type": "string",
+          "description": "Keyword or phrase to search for in the logged trades"
+        }
+      },
+      "returns": {
+        "type": "array",
+        "description": "Matching trade dictionaries (up to 5 recent ones)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "trade_id": "7b8889ef",
+  "ticker": "ADAUSD",
+  "timeframe": "5",
+  "entry_price": 0.5849,
+  "exit_price": 0.5787,
+  "direction": "short",
+  "pnl": "+37.84 USD",
+  "pnl_amount": 37.84,
+  "date_time": "2025-07-06 15:20:41",
+  "reason_or_annotations": "",
+  "image_source": "ADAUSD_2025-07-06_15-20-41_aebc9.png",
+  "logged_at": "2025-07-06T15:20:58.305201",
+  "ocr_confidence": "65.8%"
+}
